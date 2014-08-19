@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFC37B9419A374E300C7D3C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37B9319A374E300C7D3C4 /* Foundation.framework */; };
+		EFC37B9619A374E300C7D3C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37B9519A374E300C7D3C4 /* CoreGraphics.framework */; };
+		EFC37B9819A374E300C7D3C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37B9719A374E300C7D3C4 /* UIKit.framework */; };
+		EFC37B9E19A374E300C7D3C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFC37B9C19A374E300C7D3C4 /* InfoPlist.strings */; };
+		EFC37BA019A374E300C7D3C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC37B9F19A374E300C7D3C4 /* main.m */; };
+		EFC37BA419A374E300C7D3C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC37BA319A374E300C7D3C4 /* AppDelegate.m */; };
+		EFC37BA719A374E300C7D3C4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC37BA519A374E300C7D3C4 /* Main_iPhone.storyboard */; };
+		EFC37BAA19A374E300C7D3C4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC37BA819A374E300C7D3C4 /* Main_iPad.storyboard */; };
+		EFC37BAD19A374E300C7D3C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC37BAC19A374E300C7D3C4 /* ViewController.m */; };
+		EFC37BAF19A374E300C7D3C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC37BAE19A374E300C7D3C4 /* Images.xcassets */; };
+		EFC37BB619A374E300C7D3C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37BB519A374E300C7D3C4 /* XCTest.framework */; };
+		EFC37BB719A374E300C7D3C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37B9319A374E300C7D3C4 /* Foundation.framework */; };
+		EFC37BB819A374E300C7D3C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37B9719A374E300C7D3C4 /* UIKit.framework */; };
+		EFC37BC019A374E300C7D3C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFC37BBE19A374E300C7D3C4 /* InfoPlist.strings */; };
+		EFC37BC219A374E300C7D3C4 /* Nomination_ReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC37BC119A374E300C7D3C4 /* Nomination_ReminderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFC37BB919A374E300C7D3C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC37B8819A374E300C7D3C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC37B8F19A374E300C7D3C4;
+			remoteInfo = "Nomination Reminder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFC37B9019A374E300C7D3C4 /* Nomination Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nomination Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC37B9319A374E300C7D3C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFC37B9519A374E300C7D3C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFC37B9719A374E300C7D3C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFC37B9B19A374E300C7D3C4 /* Nomination Reminder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nomination Reminder-Info.plist"; sourceTree = "<group>"; };
+		EFC37B9D19A374E300C7D3C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFC37B9F19A374E300C7D3C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFC37BA119A374E300C7D3C4 /* Nomination Reminder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nomination Reminder-Prefix.pch"; sourceTree = "<group>"; };
+		EFC37BA219A374E300C7D3C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFC37BA319A374E300C7D3C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFC37BA619A374E300C7D3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EFC37BA919A374E300C7D3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EFC37BAB19A374E300C7D3C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFC37BAC19A374E300C7D3C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFC37BAE19A374E300C7D3C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFC37BB419A374E300C7D3C4 /* Nomination ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nomination ReminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC37BB519A374E300C7D3C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EFC37BBD19A374E300C7D3C4 /* Nomination ReminderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nomination ReminderTests-Info.plist"; sourceTree = "<group>"; };
+		EFC37BBF19A374E300C7D3C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFC37BC119A374E300C7D3C4 /* Nomination_ReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nomination_ReminderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFC37B8D19A374E300C7D3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC37B9619A374E300C7D3C4 /* CoreGraphics.framework in Frameworks */,
+				EFC37B9819A374E300C7D3C4 /* UIKit.framework in Frameworks */,
+				EFC37B9419A374E300C7D3C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC37BB119A374E300C7D3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC37BB619A374E300C7D3C4 /* XCTest.framework in Frameworks */,
+				EFC37BB819A374E300C7D3C4 /* UIKit.framework in Frameworks */,
+				EFC37BB719A374E300C7D3C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFC37B8719A374E300C7D3C4 = {
+			isa = PBXGroup;
+			children = (
+				EFC37B9919A374E300C7D3C4 /* Nomination Reminder */,
+				EFC37BBB19A374E300C7D3C4 /* Nomination ReminderTests */,
+				EFC37B9219A374E300C7D3C4 /* Frameworks */,
+				EFC37B9119A374E300C7D3C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFC37B9119A374E300C7D3C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFC37B9019A374E300C7D3C4 /* Nomination Reminder.app */,
+				EFC37BB419A374E300C7D3C4 /* Nomination ReminderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFC37B9219A374E300C7D3C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC37B9319A374E300C7D3C4 /* Foundation.framework */,
+				EFC37B9519A374E300C7D3C4 /* CoreGraphics.framework */,
+				EFC37B9719A374E300C7D3C4 /* UIKit.framework */,
+				EFC37BB519A374E300C7D3C4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFC37B9919A374E300C7D3C4 /* Nomination Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				EFC37BA219A374E300C7D3C4 /* AppDelegate.h */,
+				EFC37BA319A374E300C7D3C4 /* AppDelegate.m */,
+				EFC37BA519A374E300C7D3C4 /* Main_iPhone.storyboard */,
+				EFC37BA819A374E300C7D3C4 /* Main_iPad.storyboard */,
+				EFC37BAB19A374E300C7D3C4 /* ViewController.h */,
+				EFC37BAC19A374E300C7D3C4 /* ViewController.m */,
+				EFC37BAE19A374E300C7D3C4 /* Images.xcassets */,
+				EFC37B9A19A374E300C7D3C4 /* Supporting Files */,
+			);
+			path = "Nomination Reminder";
+			sourceTree = "<group>";
+		};
+		EFC37B9A19A374E300C7D3C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFC37B9B19A374E300C7D3C4 /* Nomination Reminder-Info.plist */,
+				EFC37B9C19A374E300C7D3C4 /* InfoPlist.strings */,
+				EFC37B9F19A374E300C7D3C4 /* main.m */,
+				EFC37BA119A374E300C7D3C4 /* Nomination Reminder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFC37BBB19A374E300C7D3C4 /* Nomination ReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFC37BC119A374E300C7D3C4 /* Nomination_ReminderTests.m */,
+				EFC37BBC19A374E300C7D3C4 /* Supporting Files */,
+			);
+			path = "Nomination ReminderTests";
+			sourceTree = "<group>";
+		};
+		EFC37BBC19A374E300C7D3C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFC37BBD19A374E300C7D3C4 /* Nomination ReminderTests-Info.plist */,
+				EFC37BBE19A374E300C7D3C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFC37B8F19A374E300C7D3C4 /* Nomination Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC37BC519A374E400C7D3C4 /* Build configuration list for PBXNativeTarget "Nomination Reminder" */;
+			buildPhases = (
+				EFC37B8C19A374E300C7D3C4 /* Sources */,
+				EFC37B8D19A374E300C7D3C4 /* Frameworks */,
+				EFC37B8E19A374E300C7D3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nomination Reminder";
+			productName = "Nomination Reminder";
+			productReference = EFC37B9019A374E300C7D3C4 /* Nomination Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFC37BB319A374E300C7D3C4 /* Nomination ReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC37BC819A374E400C7D3C4 /* Build configuration list for PBXNativeTarget "Nomination ReminderTests" */;
+			buildPhases = (
+				EFC37BB019A374E300C7D3C4 /* Sources */,
+				EFC37BB119A374E300C7D3C4 /* Frameworks */,
+				EFC37BB219A374E300C7D3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC37BBA19A374E300C7D3C4 /* PBXTargetDependency */,
+			);
+			name = "Nomination ReminderTests";
+			productName = "Nomination ReminderTests";
+			productReference = EFC37BB419A374E300C7D3C4 /* Nomination ReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFC37B8819A374E300C7D3C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = orange;
+				TargetAttributes = {
+					EFC37BB319A374E300C7D3C4 = {
+						TestTargetID = EFC37B8F19A374E300C7D3C4;
+					};
+				};
+			};
+			buildConfigurationList = EFC37B8B19A374E300C7D3C4 /* Build configuration list for PBXProject "Nomination Reminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFC37B8719A374E300C7D3C4;
+			productRefGroup = EFC37B9119A374E300C7D3C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFC37B8F19A374E300C7D3C4 /* Nomination Reminder */,
+				EFC37BB319A374E300C7D3C4 /* Nomination ReminderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFC37B8E19A374E300C7D3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC37BAA19A374E300C7D3C4 /* Main_iPad.storyboard in Resources */,
+				EFC37BAF19A374E300C7D3C4 /* Images.xcassets in Resources */,
+				EFC37BA719A374E300C7D3C4 /* Main_iPhone.storyboard in Resources */,
+				EFC37B9E19A374E300C7D3C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC37BB219A374E300C7D3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC37BC019A374E300C7D3C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFC37B8C19A374E300C7D3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC37BAD19A374E300C7D3C4 /* ViewController.m in Sources */,
+				EFC37BA419A374E300C7D3C4 /* AppDelegate.m in Sources */,
+				EFC37BA019A374E300C7D3C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC37BB019A374E300C7D3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC37BC219A374E300C7D3C4 /* Nomination_ReminderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFC37BBA19A374E300C7D3C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC37B8F19A374E300C7D3C4 /* Nomination Reminder */;
+			targetProxy = EFC37BB919A374E300C7D3C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFC37B9C19A374E300C7D3C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC37B9D19A374E300C7D3C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFC37BA519A374E300C7D3C4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC37BA619A374E300C7D3C4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EFC37BA819A374E300C7D3C4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC37BA919A374E300C7D3C4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EFC37BBE19A374E300C7D3C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC37BBF19A374E300C7D3C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFC37BC319A374E300C7D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFC37BC419A374E300C7D3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC37BC619A374E400C7D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nomination Reminder/Nomination Reminder-Prefix.pch";
+				INFOPLIST_FILE = "Nomination Reminder/Nomination Reminder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFC37BC719A374E400C7D3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nomination Reminder/Nomination Reminder-Prefix.pch";
+				INFOPLIST_FILE = "Nomination Reminder/Nomination Reminder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EFC37BC919A374E400C7D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nomination Reminder.app/Nomination Reminder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nomination Reminder/Nomination Reminder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nomination ReminderTests/Nomination ReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EFC37BCA19A374E400C7D3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nomination Reminder.app/Nomination Reminder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nomination Reminder/Nomination Reminder-Prefix.pch";
+				INFOPLIST_FILE = "Nomination ReminderTests/Nomination ReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFC37B8B19A374E300C7D3C4 /* Build configuration list for PBXProject "Nomination Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC37BC319A374E300C7D3C4 /* Debug */,
+				EFC37BC419A374E300C7D3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC37BC519A374E400C7D3C4 /* Build configuration list for PBXNativeTarget "Nomination Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC37BC619A374E400C7D3C4 /* Debug */,
+				EFC37BC719A374E400C7D3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFC37BC819A374E400C7D3C4 /* Build configuration list for PBXNativeTarget "Nomination ReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC37BC919A374E400C7D3C4 /* Debug */,
+				EFC37BCA19A374E400C7D3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFC37B8819A374E300C7D3C4 /* Project object */;
+}
