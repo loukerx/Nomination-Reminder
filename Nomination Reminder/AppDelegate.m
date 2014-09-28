@@ -12,6 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    self.urlText =@"http://www.business.nsw.gov.au/live-and-work-in-nsw/visa-and-migration/skilled-sponsored-migration";
+    self.urlText =@"http://www.lvcheesecake.com/demo.html";
     // Override point for customization after application launch.
     return YES;
 }

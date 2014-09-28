@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFBA6D3219C800B800A067E7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBA6D3119C800B800A067E7 /* AVFoundation.framework */; };
+		EFC1D9C219CD0887003DC7E9 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC1D9C119CD0887003DC7E9 /* SettingTableViewController.m */; };
+		EFC1D9C519CD5EE2003DC7E9 /* NotificationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC1D9C419CD5EE2003DC7E9 /* NotificationTableViewController.m */; };
 		EFC37B9419A374E300C7D3C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37B9319A374E300C7D3C4 /* Foundation.framework */; };
 		EFC37B9619A374E300C7D3C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37B9519A374E300C7D3C4 /* CoreGraphics.framework */; };
 		EFC37B9819A374E300C7D3C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37B9719A374E300C7D3C4 /* UIKit.framework */; };
@@ -14,14 +17,14 @@
 		EFC37BA019A374E300C7D3C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC37B9F19A374E300C7D3C4 /* main.m */; };
 		EFC37BA419A374E300C7D3C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC37BA319A374E300C7D3C4 /* AppDelegate.m */; };
 		EFC37BA719A374E300C7D3C4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC37BA519A374E300C7D3C4 /* Main_iPhone.storyboard */; };
-		EFC37BAA19A374E300C7D3C4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC37BA819A374E300C7D3C4 /* Main_iPad.storyboard */; };
-		EFC37BAD19A374E300C7D3C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC37BAC19A374E300C7D3C4 /* ViewController.m */; };
 		EFC37BAF19A374E300C7D3C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC37BAE19A374E300C7D3C4 /* Images.xcassets */; };
 		EFC37BB619A374E300C7D3C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37BB519A374E300C7D3C4 /* XCTest.framework */; };
 		EFC37BB719A374E300C7D3C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37B9319A374E300C7D3C4 /* Foundation.framework */; };
 		EFC37BB819A374E300C7D3C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC37B9719A374E300C7D3C4 /* UIKit.framework */; };
 		EFC37BC019A374E300C7D3C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFC37BBE19A374E300C7D3C4 /* InfoPlist.strings */; };
 		EFC37BC219A374E300C7D3C4 /* Nomination_ReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC37BC119A374E300C7D3C4 /* Nomination_ReminderTests.m */; };
+		EFD3FCE719CF0495000FC53F /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3FCE619CF0495000FC53F /* AboutViewController.m */; };
+		EFD3FCEB19CF0D67000FC53F /* MonitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3FCEA19CF0D67000FC53F /* MonitorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EFBA6D3119C800B800A067E7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EFC1D9C019CD0887003DC7E9 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		EFC1D9C119CD0887003DC7E9 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		EFC1D9C319CD5EE2003DC7E9 /* NotificationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationTableViewController.h; sourceTree = "<group>"; };
+		EFC1D9C419CD5EE2003DC7E9 /* NotificationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationTableViewController.m; sourceTree = "<group>"; };
 		EFC37B9019A374E300C7D3C4 /* Nomination Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nomination Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC37B9319A374E300C7D3C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EFC37B9519A374E300C7D3C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,15 +54,16 @@
 		EFC37BA219A374E300C7D3C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFC37BA319A374E300C7D3C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EFC37BA619A374E300C7D3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		EFC37BA919A374E300C7D3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		EFC37BAB19A374E300C7D3C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFC37BAC19A374E300C7D3C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EFC37BAE19A374E300C7D3C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EFC37BB419A374E300C7D3C4 /* Nomination ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nomination ReminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC37BB519A374E300C7D3C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EFC37BBD19A374E300C7D3C4 /* Nomination ReminderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nomination ReminderTests-Info.plist"; sourceTree = "<group>"; };
 		EFC37BBF19A374E300C7D3C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EFC37BC119A374E300C7D3C4 /* Nomination_ReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nomination_ReminderTests.m; sourceTree = "<group>"; };
+		EFD3FCE519CF0495000FC53F /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		EFD3FCE619CF0495000FC53F /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		EFD3FCE919CF0D67000FC53F /* MonitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorViewController.h; sourceTree = "<group>"; };
+		EFD3FCEA19CF0D67000FC53F /* MonitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBA6D3219C800B800A067E7 /* AVFoundation.framework in Frameworks */,
 				EFC37B9619A374E300C7D3C4 /* CoreGraphics.framework in Frameworks */,
 				EFC37B9819A374E300C7D3C4 /* UIKit.framework in Frameworks */,
 				EFC37B9419A374E300C7D3C4 /* Foundation.framework in Frameworks */,
@@ -81,6 +91,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EFC1D9C719CD5F0B003DC7E9 /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				EFC1D9C319CD5EE2003DC7E9 /* NotificationTableViewController.h */,
+				EFC1D9C419CD5EE2003DC7E9 /* NotificationTableViewController.m */,
+				EFC1D9C019CD0887003DC7E9 /* SettingTableViewController.h */,
+				EFC1D9C119CD0887003DC7E9 /* SettingTableViewController.m */,
+			);
+			name = TableViews;
+			sourceTree = "<group>";
+		};
+		EFC1D9CB19CD601A003DC7E9 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		EFC37B8719A374E300C7D3C4 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +131,7 @@
 		EFC37B9219A374E300C7D3C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EFBA6D3119C800B800A067E7 /* AVFoundation.framework */,
 				EFC37B9319A374E300C7D3C4 /* Foundation.framework */,
 				EFC37B9519A374E300C7D3C4 /* CoreGraphics.framework */,
 				EFC37B9719A374E300C7D3C4 /* UIKit.framework */,
@@ -114,12 +143,12 @@
 		EFC37B9919A374E300C7D3C4 /* Nomination Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				EFC1D9CB19CD601A003DC7E9 /* iPad */,
 				EFC37BA219A374E300C7D3C4 /* AppDelegate.h */,
 				EFC37BA319A374E300C7D3C4 /* AppDelegate.m */,
 				EFC37BA519A374E300C7D3C4 /* Main_iPhone.storyboard */,
-				EFC37BA819A374E300C7D3C4 /* Main_iPad.storyboard */,
-				EFC37BAB19A374E300C7D3C4 /* ViewController.h */,
-				EFC37BAC19A374E300C7D3C4 /* ViewController.m */,
+				EFD3FCE819CF04A0000FC53F /* ViewController */,
+				EFC1D9C719CD5F0B003DC7E9 /* TableViews */,
 				EFC37BAE19A374E300C7D3C4 /* Images.xcassets */,
 				EFC37B9A19A374E300C7D3C4 /* Supporting Files */,
 			);
@@ -153,6 +182,17 @@
 				EFC37BBE19A374E300C7D3C4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD3FCE819CF04A0000FC53F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3FCE519CF0495000FC53F /* AboutViewController.h */,
+				EFD3FCE619CF0495000FC53F /* AboutViewController.m */,
+				EFD3FCE919CF0D67000FC53F /* MonitorViewController.h */,
+				EFD3FCEA19CF0D67000FC53F /* MonitorViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +271,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC37BAA19A374E300C7D3C4 /* Main_iPad.storyboard in Resources */,
 				EFC37BAF19A374E300C7D3C4 /* Images.xcassets in Resources */,
 				EFC37BA719A374E300C7D3C4 /* Main_iPhone.storyboard in Resources */,
 				EFC37B9E19A374E300C7D3C4 /* InfoPlist.strings in Resources */,
@@ -253,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC37BAD19A374E300C7D3C4 /* ViewController.m in Sources */,
+				EFD3FCE719CF0495000FC53F /* AboutViewController.m in Sources */,
+				EFC1D9C219CD0887003DC7E9 /* SettingTableViewController.m in Sources */,
+				EFC1D9C519CD5EE2003DC7E9 /* NotificationTableViewController.m in Sources */,
 				EFC37BA419A374E300C7D3C4 /* AppDelegate.m in Sources */,
 				EFC37BA019A374E300C7D3C4 /* main.m in Sources */,
+				EFD3FCEB19CF0D67000FC53F /* MonitorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,14 +334,6 @@
 				EFC37BA619A374E300C7D3C4 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		EFC37BA819A374E300C7D3C4 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFC37BA919A374E300C7D3C4 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		EFC37BBE19A374E300C7D3C4 /* InfoPlist.strings */ = {
@@ -390,10 +424,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nomination Reminder/Nomination Reminder-Prefix.pch";
 				INFOPLIST_FILE = "Nomination Reminder/Nomination Reminder-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_MODULE_NAME = "Nomination Reminder";
+				PRODUCT_NAME = "Nomination Reminder";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +441,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nomination Reminder/Nomination Reminder-Prefix.pch";
 				INFOPLIST_FILE = "Nomination Reminder/Nomination Reminder-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_MODULE_NAME = "Nomination Reminder";
+				PRODUCT_NAME = "Nomination Reminder";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +513,7 @@
 				EFC37BC719A374E400C7D3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC37BC819A374E400C7D3C4 /* Build configuration list for PBXNativeTarget "Nomination ReminderTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +522,7 @@
 				EFC37BCA19A374E400C7D3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
